@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.food-munch-image {
+  width: 80px;
+  height: 70px;
+  border-style: solid;
+  border-width: 0px;
+}
+
+#navitem1 {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+#navitem2 {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+#navitem3 {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+#navitem4 {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+#navitem5 {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.navbar {
+  background-image: linear-gradient(#ece9e6, #ffffff);
+  opacity: 0.8;
+}
+
+.banner-section-bg-container {
+  background-image: url("https://images.pexels.com/photos/1633544/pexels-photo-1633544.jpeg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.banner-heading {
+  font-family: "Sans-Serif";
+  color: #f7f7f5;
+  letter-spacing: 3px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner-description {
+  font-family: "Caveat";
+  letter-spacing: 3px;
+  color: #ecf70f;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+button:hover {
+  transition: 0.5s;
+  background-image: linear-gradient(#ff4e50, #f9d423);
+  color: #030a03;
+  border-style: solid;
+}
+
+.view-design {
+  width: 136px;
+  height: 42px;
+  color: #122111;
+  font-family: "Arial";
+  font-weight: 600;
+  background-color: #2df013;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+  margin-right: 10px;
+  border-color: #010f09;
+}
+
+.order-design {
+  width: 136px;
+  height: 42px;
+  color: #ecf70f;
+  font-weight: bold;
+  border-color: yellow;
+  background-color: #030a03;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+  font-family: "Arial";
+}
+
+.wcu-heading {
+  color: #2f3133;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.wcu-description {
+  color: #787b80;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.wcu-card {
+  text-align: center;
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 0px;
+  background-color: white;
+}
+
+.wcu-card-heading {
+  font-weight: 700;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.wcu-card-description {
+  font-weight: 500;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #061f4d;
+}
+
+span {
+  color: #06142e;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.explore-section {
+  background-color: white;
+}
+
+.explore-menu-heading {
+  color: #314731;
+  font-family: "Caveat";
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.menu-card-items {
+  background-color: white;
+  border-radius: 12px;
+}
+
+.menu-card-image {
+  border-radius: 16px;
+  width: 100%;
+}
+
+.menu-card-heading {
+  font-family: "Roboto";
+  color: black;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.menu-card-view-link {
+  color: #f5e20f;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.Healthy-food-section {
+  background-color: white;
+}
+
+.healthy-food-image {
+  height: 196px;
+  width: 236px;
+  border-radius: 12px;
+}
+
+.healthy-food-heading {
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.healthy-food-description {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  color: #051e21;
+}
+
+.healthy-button {
+  background-color: #21b030;
+  height: 40px;
+  width: 120px;
+  border-width: 0px;
+  border-radius: 8px;
+  color: white;
+}
+
+.delivery-payment-section {
+  background-color: white;
+}
+
+.delivery-img {
+  height: 160px;
+  width: 220px;
+}
+
+.delivery-heading {
+  color: black;
+  font-family: "Roboto";
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.delivery-description {
+  color: #1f1807;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.order-now {
+  background-color: yellow;
+  border-radius: 7px;
+  height: 40px;
+  width: 120px;
+  font-family: "Roboto";
+  border-width: 0px;
+  color: #111201;
+  font-weight: 600;
+}
+
+.payment-card-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 24px;
+}
+
+.Gift-card-section {
+  background-color: #85f29b;
+}
+
+.Thanks-heading {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.Thanks-description {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  color: darkblue;
+}
+
+.Gift-card-image {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 14px;
+}
+
+.redeem-button {
+  background-color: yellow;
+  color: black;
+  font-weight: 600;
+  font-family: "Roboto";
+  font-size: 12px;
+  border-radius: 6px;
+  border-width: 0px;
+  height: 40px;
+  width: 120px;
+}
+
+.follow-us-section {
+  background-color: white;
+}
+
+.follow-us-section-heading {
+  text-align: center;
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.follow-us-icon-container {
+  background-color: #b1cbf2;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+}
+
+.icon {
+  color: #0e58c7;
+  font-size: 35px;
+}
+
+.footer-section {
+  background-color: #0c0f0c;
+}
+
+.footer-section-mail-id {
+  color: #7dd672;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.footer-section-address {
+  color: #7dd672;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+}
